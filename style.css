@@ -66,6 +66,8 @@ main{
     font-weight: 800;
     font-style: italic;
     font-size: 44px;
+    padding-bottom: 112px;
+    margin: 0;
 }
 
 .pronas_cart-main{
@@ -99,5 +101,96 @@ main{
 
 .price_cnt-main{
     display: flex;
-    gap: 10px;
+    gap: 75px;
 }
+
+.item{
+    background-color: #D9D9D9;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 58px;
+    width: 333px;
+    height: 434px;
+    box-shadow: 0px 20px 40px #000;
+}
+
+.catalog_cnt{
+    margin-left: 30px;
+    padding-bottom: 179px;
+}
+
+.text-item-catalog-main{
+    color: #10451D;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.img-item-catalog-main{
+    width: 224px;
+    height: 167px;
+}
+
+.wrong_price-item-catalog-main{
+    color: #837E7E;
+    font-size: 24px;
+    text-decoration: line-through;
+    font-weight: 900;
+}
+
+.true_price-item-catalog-main{
+    color: #FF1717;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btn-item-catalog-main{
+    width: 146px;
+    height: 33px;
+    background-color: #B7EFC5;
+    color: #10451D;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px #000;
+    cursor: pointer;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    margin-left: 180px;
+    align-items: center;
+}
+
+.btn-main{
+    width: 333px;
+    height: 33px;
+    background-color: #B7EFC5;
+    color: #10451D;
+    font-weight: 900;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-bottom: 51px;
+    box-shadow: 0px 6px 10px #000;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #FFD500;
+}
+
+.cont-foot{
+    display: flex;
+    gap: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
